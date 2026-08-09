@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+supabase
+httpx
+python-dotenv
+google-generativeai
+python-multipart

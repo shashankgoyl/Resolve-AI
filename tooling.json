@@ -1,0 +1,29 @@
+{
+  "mode": "sandbox",
+  "version": "0.0.0",
+  "_comment": "Run `swytchcode init` in this directory, then `swytchcode add <spec> <canonical_id>` for each integration below. Swytchcode will fill in `tools` and `integrations` itself. DO NOT hand-write canonical IDs here — copy them from `swytchcode info <canonical_id>` after `swytchcode add` so they match what your workspace actually has registered.",
+
+  "tools": {},
+
+  "integrations": {},
+
+  "resolve_ai_action_map": {
+    "_comment": "Maps this app's internal action names to the REAL canonical_id Swytchcode gave you after `swytchcode add`. Left blank on purpose — the backend refuses to guess. Example once populated: 'notion.search': 'notion.pages.search'",
+
+    "gmail.list_unread": "",
+    "gmail.get_message": "",
+    "gmail.mark_read": "",
+
+    "notion.search": "",
+    "notion.get_page": "",
+
+    "jira.search_issues": "",
+    "jira.create_issue": "",
+    "jira.get_issue": "",
+
+    "github.search_issues": "",
+    "github.get_issue": "",
+
+    "resend.send_email": ""
+  }
+}
