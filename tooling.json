@@ -14,8 +14,8 @@
     "gmail.get_message": "",
     "gmail.mark_read": "",
 
-    "notion.search": "",
-    "notion.get_page": "",
+    "notion.search": "notion.search.create",
+    "notion.get_page": "notion.page.get",
 
     "jira.search_issues": "",
     "jira.create_issue": "",
@@ -24,6 +24,6 @@
     "github.search_issues": "",
     "github.get_issue": "",
 
-    "resend.send_email": ""
+    "resend.send_email": "resend.email.create"
   }
 }
